@@ -10,6 +10,13 @@ The following models are trained and evaluated in this project:
 - XGBoost
 - Neural Network
 
+## Techniques Used
+### Handling Class Imbalance
+- **SMOTE (Synthetic Minority Over-sampling Technique)**: This technique is used to address class imbalance by generating synthetic samples for the minority class (fraudulent transactions). SMOTE helps to balance the dataset and improve the model's ability to detect fraudulent transactions.
+
+### Hyperparameter Tuning
+- **Grid Search**: To optimize the performance of our models, we employed Grid Search for hyperparameter tuning. Grid Search systematically works through multiple combinations of parameter values, cross-validating as it goes to determine which combination provides the best performance.
+
 ## Performance Metrics
 Each model is evaluated using the following metrics:
 - Precision
